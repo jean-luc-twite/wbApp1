@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Guess page </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1>guess</h1>
+            <p>
+                this is our guess page throught this page you will able to guess the number
+            </p>
+        </div>
+        <div>
+            <p>please guess your number below</p>
+            <form action ="guessNumberServlet.do" method="POST">
+                <table>
+                    <tr>
+                        <td>guess number:</td>
+                        <td><input type ="number" name ="guessNum"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="SEND"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
